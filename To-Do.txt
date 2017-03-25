@@ -3,12 +3,13 @@ Critical - Solve before launch:
     Maybe I could figure out how to code so that it displays a message if Hack can't be used
     I'm thinking I should at least go from 3/4-width spaces to full-width spaces, I just don't know which character to use
       I can look it up...
+      Mostly for the sake of the monospace failsafe
   Edit "WT - Oneironaut.txt", then eventually finalize it
     I took notes on what feedback I've gotten and placed them at the top of the .txt file
   More content!
     I'm thinking 2-3 more stories after the oneironaut one before launching
   Rewrite the splash page for launch
-  Get a domain
+  Get a domain (I'm thinking lowrezlabs.net)
 
 Stuff that can wait until after launch:
   Perpetually add more content
