@@ -1,22 +1,20 @@
 Critical - Solve before launch:
-  Viewing on a library computer disables Hack. This could be because of the library computer itself not allowing remote font files, or it could be because hosting using GitHub Pages only allows for "static assets". I should test on a non-library computer without Hack installed, troubleshoot, and problem-solve.
-    Maybe I could figure out how to code so that it displays a message if Hack can't be used
-    I'm thinking I should at least go from 3/4-width spaces to full-width spaces, I just don't know which character to use
-      I can look it up...
-      Mostly for the sake of the monospace failsafe
-  Edit "WT - Oneironaut.txt", then eventually finalize it
-    I took notes on what feedback I've gotten and placed them at the top of the .txt file
-  More content!
-    I'm thinking 2-3 more stories after the oneironaut one before launching
-  Rewrite the splash page for launch
-  Get a domain (I'm thinking lowrezlabs.net)
+	Viewing on a library computer disables Hack. This appears to be because the library computer (only somewhat understandably) disables external font files. That said, I should adjust the site so the courier and monospace failsafes look good too
+		I've replaced all spaces with a Figure Space character, so I need to check on the library computer again to see whether it looks right
+			Of course, that'll only appear if I push these changes to the main branch
+	Edit "WT - Oneironaut.txt", then eventually finalize it
+		I took notes on what feedback I've gotten and placed them at the top of the .txt file
+	More content!
+		I'm thinking 2-3 more stories after finalizing the oneironaut one before launching
+	Rewrite the splash page for launch
+	Get a domain (I'm thinking lowrezlabs.net)
 
 Stuff that can wait until after launch:
-  Perpetually add more content
-  Figure out a solution for if there's more entries than would fit on one page
-  Figure out some way to automatically update for new content without having to manually edit the .html files (Maybe some .css magic?)
-    This will be complicated somewhat when I accumulate more than one page of entries, because I'll have to split into multiple pages
-  Figure out some way to allow navigating the website using only text commands
-    Think the visual design of the station menus in the original Elite, but interacting using command line-esque prompts
-    I plan to keep the click-interaction intact
-    I need to figure out how to have the typed text display in Hack
+	Perpetually add more content
+	Figure out a solution for if there's more entries than would fit on one page
+	Figure out some way to automatically update for new content without having to manually edit the .html files (Maybe some .css magic?)
+		This will be complicated somewhat when I accumulate more than one page of entries, because I'll have to split into multiple pages
+	Figure out some way to allow navigating the website using only text commands
+		Think the visual design of the station menus in the original Elite, but interacting using command line-esque prompts
+		I plan to keep the click-interaction intact
+		I need to figure out how to have the typed text display in Hack
