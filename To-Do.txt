@@ -1,9 +1,11 @@
 Critical - Solve before launch:
 	I should adjust the site so the courier and monospace failsafes look good too
 		The new issue is that IE displays these characters at 5/6 width when using a monospace font, unless it's Hack
-			Honestly, fuck IE, but I need to code for edge cases. Current edge case is if the @font-space function doesn't work and the user either has to be on IE or refuses to use anything other browser
+			Honestly, fuck IE, but I need to code for edge cases. Current edge case is if the @font-space function doesn't work and the user either has to be on IE or refuses to use any other browser
+		Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
 	Edit "WT - Oneironaut.txt", then eventually finalize it
 		I took notes on what feedback I've gotten and placed them at the top of the .txt file
+		With the extent of the changes, a total rewrite may be easier than going through and spot-editing
 	More content!
 		I'm thinking 2-3 more stories after finalizing the oneironaut one before launching
 	Rewrite the splash page for launch
@@ -11,10 +13,13 @@ Critical - Solve before launch:
 
 Stuff that can wait until after launch:
 	Perpetually add more content
+		Don't worry too hard about making sure there's always something new. This is just a pet project, after all
 	Figure out a solution for if there's more entries than would fit on one page
 	Figure out some way to automatically update for new content without having to manually edit the .html files (Maybe some .css magic?)
 		This will be complicated somewhat when I accumulate more entries than would fit on one page (see above)
 	Figure out some way to allow navigating the website using only text commands
-		Think the visual design of the station menus in the original Elite, but interacting using command line-esque prompts
+		Think the current visual design, but interacting using command line-esque prompts
 		I plan to keep the click-interaction intact
 		I need to figure out how to have the typed text display in Hack
+		There should be some error handler for if a command is unrecognized
+		This would all have to fit into the established aesthetic as well
