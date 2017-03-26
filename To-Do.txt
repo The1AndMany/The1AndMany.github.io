@@ -2,6 +2,7 @@ Critical - Solve before launch:
 	I should adjust the site so the courier and monospace failsafes look good too
 		The new issue is that IE displays these characters at 5/6 width when using a monospace font, unless it's Hack
 			Honestly, fuck IE, but I need to code for edge cases. Current edge case is if the @font-space function doesn't work and the user either has to be on IE or refuses to use any other browser
+				I'm thinking the best solution would be either to figure out how to get the failsafes to display correctly in IE or just write a note in the splash page. HTML browser detection is kinda iffy.
 		Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
 	Edit "WT - Oneironaut.txt", then eventually finalize it
 		I took notes on what feedback I've gotten and placed them at the top of the .txt file
