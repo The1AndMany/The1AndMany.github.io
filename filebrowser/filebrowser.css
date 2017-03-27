@@ -23,7 +23,7 @@
 	font-style:italic;
 }
 body {
-	font-family: Hack, monospace;
+	font-family: Hack, Courier New, Courier, monospace;
 	background: white url("logo.png") no-repeat fixed top right;
 	color: black;
 	white-space: nowrap;

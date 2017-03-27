@@ -1,0 +1,33 @@
+Critical - Solve before launch:
+	Edit "WT - Oneironaut.txt", then eventually finalize it
+		I took notes on what feedback I've gotten and placed them at the top of the .txt file
+		With the extent of the changes, a total rewrite may be easier than going through and spot-editing
+	More content!
+		I'm thinking 2-3 more stories after finalizing the oneironaut one before launching
+	Rewrite the splash page for launch
+	Get a domain (I'm thinking lowrezlabs.net)
+
+Stuff that can wait until after launch:
+	Perpetually add more content
+		Don't worry too hard about making sure there's always something new. This is just a pet project, after all
+	Figure out how to display content properly if a user is on IE and Hack can't be used
+		Currently, IE displays the Figure Space characters at 5/6 width when using a monospace font, unless it's Hack
+		HTML browser detection is kinda iffy because there's no guarantee it'll work
+			Maybe look at browser detection sites and analyze their code?
+		Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
+	Figure out a solution for if there's more entries than would fit on one page
+	Figure out some way to automatically update for new content without having to manually edit the .html files (Maybe some .css magic?)
+		This will be complicated somewhat when I accumulate more entries than would fit on one page (see above)
+		(See server-side code note below)
+	Figure out some way to allow navigating the website using only text commands
+		Think the current visual design, but interacting using command line-esque prompts
+		I plan to keep the click-interaction intact
+		I need to figure out how to have the typed text display in Hack
+		There should be some error handler for if a command is unrecognized
+		This would all have to fit into the established aesthetic as well
+		(See server-side code note below)
+
+Notes:
+(Server-side code)
+	Github pages doesn't support server-side code (PHP, Ruby, Python, etc.), which this feature may require. If it does I would have to use a "proper" web host, which would almost certainly cost money. I should weigh whether it would be worth worth actually paying for a web host for what benefits I reap, including commercial purposes and adding this feature.
+		I should also be sure that the feature works by testing locally before deciding anything based on it
