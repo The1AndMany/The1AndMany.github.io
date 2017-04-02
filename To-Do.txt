@@ -10,11 +10,15 @@ Critical - Solve before launch:
 Stuff that can wait until after launch:
 	Perpetually add more content
 		Don't worry too hard about making sure there's always something new. This is just a pet project, after all
-	Figure out how to display content properly if a user is on IE and Hack can't be used
-		Currently, IE displays the Figure Space characters at 5/6 width when using a monospace font, unless it's Hack
-		HTML browser detection is kinda iffy because there's no guarantee it'll work
-			Maybe look at browser detection sites and analyze their code?
+	Remove the splash page, and replace with the filebrowser root
+		This would make the website more streamlined, but require me to find different places to put the Rickrollin' login page (if I decide to keep it) and the IE/Edge message
+		This would break any existing links unless I duplicate all existing content, keep a copy in the /filebrowser folder, and adapt all .html pages to redirect to the new path
+			Of course, if the website doesn't take off until after I do this, I'd be the only one linking to the site, and thus I'd be the only one who'd have to replace them all
+				Plus, the www.lowrezlabs.net link would still work, it would just lead straight into the file browser instead of the splash page, so depending how I link I may not even need to do that.
+	Figure out how to display content properly if a user is on IE/Edge and Hack can't be used
+		Currently, IE/Edge displays the Figure Space characters at 5/6 width when using a monospace font, unless it's Hack
 		Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
+			Not just on IE/Edge; also on Chrome, and presumably Firefox
 	Figure out a solution for if there's more entries than would fit on one page
 	Figure out some way to automatically update for new content without having to manually edit the .html files (Maybe some .css magic?)
 		This will be complicated somewhat when I accumulate more entries than would fit on one page (see above)

@@ -10,9 +10,35 @@
 <p>Thanks for visiting!</p>
 <p>-Samuel Henthorne</p>
 
-<p><b>NOTE TO INTERNET EXPLORER USERS:</b><br>
-IE processes most monospace fonts in such a way that the formatting of this website will be displayed incorrectly. I've set a font that doesn't do this to be used by default, but if that font can't be displayed this site will not look its best.<br>
-You can check whether the formatting is correct by hitting Ctrl+A and checking whether every line (except possibly the last one) is the same width. If the lines are of different widths the formatting is incorrect; please consider using an alternative browser such as Firefox or Google Chrome.</p>
+<p id="IE"></p>
+
+<script>
+var version = detectIE();
+
+if (version === false) {
+document.getElementById('IE').innerHTML = '';
+} else {
+document.getElementById('IE').innerHTML = '<b>CAUTION:</b><br>In clinical trials, Internet Explorer and Edge have been shown to produce several issues with a wide variety of websites, including this one.<br>Side effects of viewing this website on Internet Explorer may include, but are not limited to:<br><ul><li>Incorrect whitespace width</li><li>Displaying .txt files with no word-wrap</li><li>Having an inferior web browsing experience</li></ul>If you experience one or all of these symptoms, consider using an alternative web browser such as Firefox or Google Chrome.<br>If alternative web browsers are not an option, politely complain to your system administrator.';
+}
+
+function detectIE() {
+var ua = window.navigator.userAgent;
+var msie = ua.indexOf('MSIE ');
+if (msie > 0) {
+return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+}
+var trident = ua.indexOf('Trident/');
+if (trident > 0) {
+var rv = ua.indexOf('rv:');
+return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+}
+var edge = ua.indexOf('Edge/');
+if (edge > 0) {
+return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+}
+return false;
+}
+</script>
 
 <h3><a href="filebrowser/root.html">ENTER SITE</a></h3>
 <br>
