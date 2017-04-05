@@ -2,8 +2,11 @@ Critical - Solve before launch:
 	Edit "WT - Oneironaut.txt", then eventually finalize it
 		I took notes on what feedback I've gotten and placed them at the top of the .txt file
 		With the extent of the changes, a total rewrite may be easier than going through and spot-editing
+		I don't have to have this story in the public launch. I could replace it with another.
 	More content!
-		I'm thinking 2-3 more stories after finalizing the oneironaut one before launching
+		I'm thinking 2-3 more stories before launching
+			Currently, the oneironaut story doesn't count because it's not final
+				That means that 1-2 more after (and if) I finalize it
 	Rewrite the splash page for launch
 	Get a domain (I'm thinking lowrezlabs.net)
 
