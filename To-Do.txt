@@ -1,29 +1,27 @@
 Critical - Solve before launch:
-	Edit "WT - Oneironaut.txt", then eventually finalize it
+	Edit and finalize "WT - Oneironaut.txt", or remove it from the repository
 		I took notes on what feedback I've gotten and placed them at the top of the .txt file
 		With the extent of the changes, a total rewrite may be easier than going through and spot-editing
 		I don't have to have this story in the public launch. I could replace it with another.
 	More content!
-		I'm thinking 2-3 more stories before launching
-			Currently, the oneironaut story doesn't count because it's not final
-				That means that 1-2 more after (and if) I finalize it
-	Rewrite the splash page for launch
+		I currently have 4 stories ready to go, and I'm aiming to have 7 at launch
+			This means that I should get 3 more stories ready before launching
+			Oneironaut currently counts as "not ready"
+	I should migrate the Stream Shuffle and Permissions documents from my Dropbox to a "credits" folder on the server, add "Public Interface Credits.txt" to it, and redirect any old links
+		Currently the only existing links are in the draft Twitch channel description
+	Maybe add a quick file listing every website I am a part of
+		Basically copying "Dropbox/Text files/Transfer/sites.txt" and maybe adapting it to HTML
 	Get a domain (I'm thinking lowrezlabs.net)
 
 Stuff that can wait until after launch:
 	Perpetually add more content
 		Don't worry too hard about making sure there's always something new. This is just a pet project, after all
-	Remove the splash page, and replace with the filebrowser root
-		This would make the website more streamlined, but require me to find different places to put the Rickrollin' login page (if I decide to keep it) and the IE/Edge message
-		This would break any existing links unless I duplicate all existing content, keep a copy in the /filebrowser folder, and adapt all .html pages to redirect to the new path
-			Of course, if the website doesn't take off until after I do this, I'd be the only one linking to the site, and thus I'd be the only one who'd have to replace them all
-				Plus, the www.lowrezlabs.net link would still work, it would just lead straight into the file browser instead of the splash page, so depending how I link I may not even need to do that.
 	Figure out how to display content properly if a user is on IE/Edge and Hack can't be used
 		Currently, IE/Edge displays the Figure Space characters at 5/6 width when using a monospace font, unless it's Hack
 		Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
 			Not just on IE/Edge; also on Chrome, and presumably Firefox
 	Figure out a solution for if there's more entries than would fit on one page
-	Figure out some way to automatically update for new content without having to manually edit the .html files (Maybe some .css magic?)
+	Figure out some way to automatically update for new content without having to manually edit the .html files
 		This will be complicated somewhat when I accumulate more entries than would fit on one page (see above)
 		(See server-side code note below)
 	Figure out some way to allow navigating the website using only text commands

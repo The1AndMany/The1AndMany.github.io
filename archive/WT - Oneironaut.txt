@@ -1,15 +1,22 @@
 What to change:
 * Change the title
-* The experiment of writing with no proper nouns and only gender-neutral pronouns seems to be a resounding failure. I want to keep the plot, but the way I tell it should be more conventional
-	* That would allow me to use "partner", "significant other", and "boy/girlfriend" interchangably without sacrificing identifiability
+	* That can come last
+* The experiment of writing with no proper nouns and only gender-neutral pronouns seems to be a resounding failure. It makes the story sound too "smart" and not relatable enough. I want to keep the plot, but the way I tell it should be more conventional
+	* That would allow me to use "partner", "significant other", and "boy/girlfriend" interchangably, in turn allowing me to refer to that character in a way that's much easier to read
 	* I should also try to cut down on my use of pronouns by phrasing things differently
 		* Ex: Steve was usually excited to fall asleep. Being an oneironaut and having the ability to control his dreams meant he could usually fantasize about anything he wanted, and he often did.
 			* Eliminates one pronoun use, while also characterizing the oneironaut with a name and gender
-* The term "oneironaut" should have a definition or explanation
+* The term "oneironaut" should have a definition or explanation the first time it's used
+	* I still really want to use it more than once
 * The past/present/future tense gambit seems to work well, but is also slightly tacky; maybe I should just stick to one tense
+	* I can use this technique in another story where it won't be as tacky and might acutally feed into the story's narrative
 * The bad memories should be worse
 	* What if the SO had a miscarriage
-
+	* What if one or both parents were abusive?
+		* Sexually, physically, verbally, and/or emotionally
+	* Idea stolen from Forensic Files: The oneironaut is actually a middle child. Their parents wanted a child of one gender so badly they didn't care for their children of the opposite gender, so when the first and third children were the wrong gender, one or both parents killed the oneironaut's siblings
+		* After birth, not an abortion
+		* I'd probably have to give the oneironaut a gender in order to pull this off so I can say "brother" or "sister" instead of "sibling" and explicitly say which gender the parents wanted
 
 The oneironaut was usually excited to fall asleep. Their ability to control their dreams meant they could usually fantasize about anything they wanted to, and they often did. But ever since that night, they dreaded falling asleep so much that they became an insomniac. Rather ironic. That night, the oneironaut went to bed as usual. As always, their dream guide showed up almost as soon as they started dreaming. The oneironaut was so experienced that they didn't need the dream guide's help to figure out they were dreaming. This came as the result of years of practice, and even now it's at the point that beginner oneironauts have no idea how they just know they're dreaming. Once the dream guide helped stabilize the dream, the two had some fun. The oneironaut had planned to explore their dreamscape and develop it further, but just as they were getting started the dream guide disappeared.
 
