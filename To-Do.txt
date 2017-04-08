@@ -4,9 +4,9 @@ Critical - Solve before launch:
 		With the extent of the changes, a total rewrite may be easier than going through and spot-editing
 		I don't have to have this story in the public launch. I could replace it with another.
 	More content!
-		I currently have 4 stories ready to go, and I'm aiming to have 7 at launch
-			This means that I should get 3 more stories ready before launching
-			Oneironaut currently counts as "not ready"
+		I currently have 5 stories ready to go, and I'm aiming to have 7 at launch
+			This means that I should get 2 more stories ready before launching
+			Oneironaut currently counts as "not ready" because it needs some massive rewriting
 	I should migrate the Stream Shuffle and Permissions documents from my Dropbox to a "credits" folder on the server, add "Public Interface Credits.txt" to it, and redirect any old links
 		Currently the only existing links are in the draft Twitch channel description
 	Maybe add a quick file listing every website I am a part of
