@@ -1,4 +1,4 @@
-Critical - Solve before launch:
+Critical - Resolve before launch:
 	Edit and finalize "WT - Oneironaut.txt", or remove it from the repository
 		I took notes on what feedback I've gotten and placed them at the top of the .txt file
 		With the extent of the changes, a total rewrite may be easier than going through and spot-editing
@@ -8,11 +8,12 @@ Critical - Solve before launch:
 			This means that I should get 1 more story ready before launching
 			I could always postpone the launch for whatever reason (possibly saving money for the domain); I don't need exactly 7 stories to launch
 			Oneironaut currently counts as "not ready" because it needs some massive rewriting
-			The one I have no working title for counts as "not ready" because it needs a title and some minor revisions
+			The Dog Therapy miniseries currently counts as "not ready" because it needs a better overall title, it needs titles for each entry, and entries 2-4 need to be expanded to match the length of entry 1 as closely as possible (plus peer-review after all that)
 	I should migrate the Stream Shuffle and Permissions documents from my Dropbox to a "credits" folder on the server, add "Public Interface Credits.txt" to it, and redirect any old links
 		Currently the only existing links are in the draft Twitch channel description
 	Maybe add a quick file listing every website I am a part of
 		Basically copying "Dropbox/Text files/Transfer/sites.txt" and maybe adapting it to HTML
+	One final peer-review of the entire site
 	Get a domain (I'm thinking lowrezlabs.net)
 
 Stuff that can wait until after launch:
@@ -23,18 +24,24 @@ Stuff that can wait until after launch:
 		Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
 			Not just on IE/Edge; also on Chrome, and presumably Firefox
 	Figure out a solution for if there's more entries than would fit on one page
+		(See Javascript note below)
 	Figure out some way to automatically update for new content without having to manually edit the .html files
 		This will be complicated somewhat when I accumulate more entries than would fit on one page (see above)
+		(See Javascript note below)
 		(See server-side code note below)
 	Figure out some way to allow navigating the website using only text commands
 		Think the current visual design, but interacting using command line-esque prompts
 		I plan to keep the click-interaction intact
-		I need to figure out how to have the typed text display in Hack
 		There should be some error handler for if a command is unrecognized
 		This would all have to fit into the established aesthetic as well
+			That means the typed text should appear in-line and in Hack
+		(See Javascript note below)
 		(See server-side code note below)
 
 Notes:
+(Javascript)
+	Just as a reminder, IE/Edge doesn't run Javascript automatically, and the dialog to enable it disappears after a few seconds. This could theorhetically be solved by setting it so that there's failsafe content that displays if Javascript can't run and that fits with my aesthetic.
 (Server-side code)
 	Github pages doesn't support server-side code (PHP, Ruby, Python, etc.), which this feature may require. If it does I would have to use a "proper" web host, which would almost certainly cost money. I should weigh whether it would be worth worth actually paying for a web host for what benefits I reap, including commercial purposes and adding this feature.
 		I should also be sure that the feature works by testing locally before deciding anything based on it
+		Just to be clear, Javascript counts as client-side code
