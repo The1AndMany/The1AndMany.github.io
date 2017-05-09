@@ -1,24 +1,39 @@
-Critical - Resolve before launch:
-	Edit and finalize "WT - Oneironaut.txt", or remove it from the repository
+Goal: Complete ten points from the checklist below each day, only letting up to 5 points roll over to the next day:
++10	Edit and finalize "WT - Oneironaut.txt"
+		Either this or the item below, not both
 		I took notes on what feedback I've gotten and placed them at the top of the .txt file
-		With the extent of the changes, a total rewrite may be easier than going through and spot-editing
-		I don't have to have this story in the public launch. I could replace it with another.
-	More content!
-		I currently have 6 stories ready to go, and I'm aiming to have at least 7 at launch
-			This means that I should get 1 more story ready before launching
-			I could always postpone the launch for whatever reason (possibly saving money for the domain); I don't need exactly 7 stories to launch
-			Oneironaut currently counts as "not ready" because it needs some massive rewriting
-			The Dog Therapy miniseries currently counts as "not ready" because it needs a better overall title, it needs titles for each entry, and entries 2-4 need to be expanded to match the length of entry 1 as closely as possible (plus peer-review after all that)
-	I should migrate the Stream Shuffle and Permissions documents from my Dropbox to a "credits" folder on the server, add "Public Interface Credits.txt" to it, and redirect any old links
-		Currently the only existing links are in the draft Twitch channel description
-	Maybe add a quick file listing every website I am a part of
-		Basically copying "Dropbox/Text files/Transfer/sites.txt" and maybe adapting it to HTML
-	One final peer-review of the entire site
-	Get a domain (I'm thinking lowrezlabs.net)
++1	Decide to not release "WT - Oneironaut.txt" at launch
+		Either this or the item above, not both
++2	Create a WIP folder and move everything that isn't ready for release there
++4	Translate "Dropbox/Text files/Transfer/sites.txt" to HTML and add it to the root index
+(Rollover from 5-8-17: +5)
+
+Once all of those are done:
+* "	"	"	 "WT - Oneironaut.txt", if I decided to keep it at launch
+* Decide whether the Kitsune Logan story is ready to publish just yet
+	* Add the appropriate indexing if it is
+* Add a new announcement declaring that the site is almost ready
+
+Once that's done:
+* One final peer-review of the entire site, lasting up to 1 week
+
+If the peer-review is positive:
+* Add another new announcement that the website is now public
+* Get a domain (www.lowrezlabs.net)
+* Properly set up the A and CNAME redirects
+	* Documentation: http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/
+* Wait until the redirect records update
+	* i.e. wait until you can use www.lowrezlabs.net instead of the1andmany.github.io
+	* Documentation suggests either 5 minutes, 1 hour, or 48 hours
+* Announce the launch
+	* At least on Twitter and FA
+		* Don't forget to change the website on my Twitter profile!
 
 Stuff that can wait until after launch:
 	Perpetually add more content
 		Don't worry too hard about making sure there's always something new. This is just a pet project, after all
+		I could assign point values to each bit of work I do and aim to get a certain number of points per day, while rolling over extra points until I reach half of my point goal for the next day
+			Essentially the system I used to get the lead out and actually get myself to get the site ready for a public launch
 	Figure out how to display content properly if a user is on IE/Edge and Hack can't be used
 		Currently, IE/Edge displays the Figure Space characters at 5/6 width when using a monospace font, unless it's Hack
 		Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
