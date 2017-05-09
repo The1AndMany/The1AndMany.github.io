@@ -1,20 +1,4 @@
-Goal: Complete ten points from the checklist below each day, only letting up to 5 points roll over to the next day:
-+10	Edit and finalize "WT - Oneironaut.txt"
-		Either this or the item below, not both
-		I took notes on what feedback I've gotten and placed them at the top of the .txt file
-+1	Decide to not release "WT - Oneironaut.txt" at launch
-		Either this or the item above, not both
-+2	Create a WIP folder and move everything that isn't ready for release there
-+4	Translate "Dropbox/Text files/Transfer/sites.txt" to HTML and add it to the root index
-(Rollover from 5-8-17: +5)
-
-Once all of those are done:
-* "	"	"	 "WT - Oneironaut.txt", if I decided to keep it at launch
-* Decide whether the Kitsune Logan story is ready to publish just yet
-	* Add the appropriate indexing if it is
-* Add a new announcement declaring that the site is almost ready
-
-Once that's done:
+Currently:
 * One final peer-review of the entire site, lasting up to 1 week
 
 If the peer-review is positive:
