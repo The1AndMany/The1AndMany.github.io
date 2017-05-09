@@ -6,9 +6,8 @@ Goal: Complete ten points from the checklist below each day, only letting up to 
 		Either this or the item above, not both
 +2	Create a WIP folder and move everything that isn't ready for release there
 +2	Decide whether A Message of Hope is a serial or not, then move it to the appropriate place
-+8	Expand entry 4 of Generations with Giants
 +4	Translate "Dropbox/Text files/Transfer/sites.txt" to HTML and add it to the root index
-(Rollover from 5-7-17: +4)
+(Rollover from 5-8-17: +3)
 
 Once all of those are done:
 * Another peer-review of Generations with Giants
