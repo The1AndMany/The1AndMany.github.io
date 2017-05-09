@@ -5,12 +5,10 @@ Goal: Complete ten points from the checklist below each day, only letting up to 
 +1	Decide to not release "WT - Oneironaut.txt" at launch
 		Either this or the item above, not both
 +2	Create a WIP folder and move everything that isn't ready for release there
-+2	Decide whether A Message of Hope is a serial or not, then move it to the appropriate place
 +4	Translate "Dropbox/Text files/Transfer/sites.txt" to HTML and add it to the root index
-(Rollover from 5-8-17: +3)
+(Rollover from 5-8-17: +5)
 
 Once all of those are done:
-* Another peer-review of Generations with Giants
 * "	"	"	 "WT - Oneironaut.txt", if I decided to keep it at launch
 * Decide whether the Kitsune Logan story is ready to publish just yet
 	* Add the appropriate indexing if it is
@@ -26,6 +24,7 @@ If the peer-review is positive:
 	* Documentation: http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/
 * Wait until the redirect records update
 	* i.e. wait until you can use www.lowrezlabs.net instead of the1andmany.github.io
+	* Documentation suggests either 5 minutes, 1 hour, or 48 hours
 * Announce the launch
 	* At least on Twitter and FA
 		* Don't forget to change the website on my Twitter profile!
