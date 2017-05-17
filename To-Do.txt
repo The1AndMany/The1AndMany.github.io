@@ -1,59 +1,24 @@
-Currently:
-* One final peer-review of the entire site, lasting up to 1 week
-	* Notes:
-		* Rename "Announcements" to "Press Releases"
-		* Repath "Announcements" to "Press" or "PR"
-		* Remove all the <a download> tags
-			* Turns out downloading them and opening in Notepad (the Windows default) ruins the line breaking. I'd rather have to deal with IE/Edge users not having word-wrap.
-
-If the peer-review is positive:
-* Add another new announcement that the website is now public
-* Get a domain (www.lowrezlabs.net)
-* Set up Google Analytics
-	* Literally as easy as copy/pasting some Javascript code into the website header on every page
-		* (See Javascript note below)
-* Properly set up the server-side part of the CNAME redirects
-	* Documentation: http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/
-* Push the release version of the site
-* Properly set up the Google Domains-side part of the A and CNAME redirects
-	* Documentation: http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/
-* Wait until the redirect records update
-	* i.e. wait until you can use www.lowrezlabs.net instead of the1andmany.github.io
-	* Documentation suggests either 5 minutes, 1 hour, or 48 hours
-* Announce the launch
-	* At least on Twitter and FA
-		* Don't forget to change the website on my Twitter profile!
-
-Stuff that can wait until after launch:
-	Perpetually add more content
-		Don't worry too hard about making sure there's always something new. This is just a pet project, after all
-		I could assign point values to each bit of work I do and aim to get a certain number of points per day, while rolling over extra points until I reach half of my point goal for the next day
-			Essentially the system I used to get the lead out and actually get myself to get the site ready for a public launch
-	Figure out how to display content properly if a user is on IE/Edge and Hack can't be used
-		Currently, IE/Edge displays the Figure Space characters at 5/6 width when using a monospace font, unless it's Hack
-		Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
-			Not just on IE/Edge; also on Chrome, and presumably Firefox
-	Figure out a solution for if there's more entries than would fit on one page
-		(See Javascript note below)
-	Figure out some way to automatically update for new content without having to manually edit the .html files
-		This will be complicated somewhat when I accumulate more entries than would fit on one page (see above)
-		(See Javascript note below)
-		(See server-side code note below)
-	Figure out some way to allow navigating the website using only text commands
-		Think the current visual design, but interacting using command line-esque prompts
-		I plan to keep the click-interaction intact
-		There should be some error handler for if a command is unrecognized
-		This would all have to fit into the established aesthetic as well
-			That means the typed text should appear in-line and in Hack
-		(See Javascript note below)
-		(See server-side code note below)
+* Perpetually add more content
+	* Don't worry too hard about making sure there's always something new. This is just a pet project, after all
+	* I could assign point values to each bit of work I do and aim to get a certain number of points per day, while rolling over extra points until I reach half of my point goal for the next day
+		* Essentially the system I used to get the lead out and actually get myself to get the site ready for a public launch
+* Figure out how to display content properly if a user is on IE/Edge and Hack can't be used
+	* Currently, IE/Edge displays the Figure Space characters at 5/6 width when using a monospace font, unless it's Hack
+	* Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
+		* Not just on IE/Edge; also on Chrome, and presumably Firefox
+* Figure out a solution for if there's more entries than would fit on one page
+* Figure out some way to automatically update for new content without having to manually edit the .html files
+	* This will be complicated somewhat when I accumulate more entries than would fit on one page (see above)
+	* (See server-side code note below)
+* Figure out some way to allow navigating the website using only text commands
+	* Think the current visual design, but interacting using command line-esque prompts
+	* I plan to keep the click-interaction intact
+	* There should be some error handler for if a command is unrecognized
+	* This would all have to fit into the established aesthetic as well
+		* That means the typed text should appear in-line and in Hack
+	* (See server-side code note below)
 
 Notes:
-(Javascript)
-	Just as a reminder, IE/Edge doesn't run Javascript automatically, and the dialog to enable it disappears after a few seconds. This could theorhetically be solved by setting it so that there's failsafe content that displays if Javascript can't run and that fits with my aesthetic.
-		Possibly just tacking a short message onto the bottom of every page reminding the user to enable Javascript
-			It would have to be every page even if I only have Javascript on some so that the site height is uniform
-				I could do it inline on just the pages that use Javascript, but that would needlessly complicate adding more content than can fit on one page because the users who don't enable Javascript would need a second page sooner, and the second page's listings would start with a different entry
 (Server-side code)
 	Github pages doesn't support server-side code (PHP, Ruby, Python, etc.), which this feature may require. If it does I would have to use a "proper" web host, which would almost certainly cost money. I should weigh whether it would be worth worth actually paying for a web host for what benefits I reap, including commercial purposes and adding this feature.
 		I should also be sure that the feature works by testing locally before deciding anything based on it
