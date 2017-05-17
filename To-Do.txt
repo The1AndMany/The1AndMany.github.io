@@ -1,5 +1,10 @@
 Currently:
 * One final peer-review of the entire site, lasting up to 1 week
+	* Notes:
+		* Rename "Announcements" to "Press Releases"
+		* Repath "Announcements" to "Press" or "PR"
+		* Remove all the <a download> tags
+			* Turns out downloading them and opening in Notepad (the Windows default) ruins the line breaking. I'd rather have to deal with IE/Edge users not having word-wrap.
 
 If the peer-review is positive:
 * Add another new announcement that the website is now public
