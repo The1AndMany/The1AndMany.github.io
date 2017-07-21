@@ -2,6 +2,8 @@
 	* Don't worry too hard about making sure there's always something new. This is just a pet project, after all
 	* I could assign point values to each bit of work I do and aim to get a certain number of points per day, while rolling over extra points until I reach half of my point goal for the next day
 		* Essentially the system I used to get the lead out and actually get myself to get the site ready for a public launch
+* Add a custom 404 error page
+	* Don't let Google index it; make sure it's configured to give a 404 HTTP status code when non-existent pages are requested
 * Figure out how to display content properly if a user is on IE/Edge and Hack can't be used
 	* Currently, IE/Edge displays the Figure Space characters at 5/6 width when using a monospace font, unless it's Hack
 	* Reminder: Using multiple regular spaces in a row gets collapsed to display as only one space
