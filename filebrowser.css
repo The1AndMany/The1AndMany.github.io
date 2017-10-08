@@ -22,6 +22,12 @@
 	font-weight:bold;
 	font-style:italic;
 }
+@keyframes intro {
+	0% {color: black; background-color: transparent;}
+	33% {color: rgb(0, 255, 0); background-color: black;}
+	66% {color: rgb(0, 255, 0); background-color: black;}
+	100% {color: black; background-color: transparent;}
+}
 body {
 	font-family: Hack, Courier New, Courier, monospace;
 	background: white url("logo.png") no-repeat fixed top right;
@@ -47,5 +53,12 @@ a {
 */
 	color: black;
 	background-color: transparent;
+	animation-name: intro;
+	animation-duration: 1s;
 	text-decoration: none;
+	transition: color 0.25s, background-color 0.25s;
+}
+a:hover {
+	color: rgb(0, 255, 0);
+	background-color: black;
 }
