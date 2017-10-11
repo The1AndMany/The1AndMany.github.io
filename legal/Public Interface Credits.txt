@@ -5,8 +5,14 @@ All website coding by Samuel Henthorne
 "Hack" font copyright Christopher Simpkins, subject to Hack Open Font License v2.0
 https://sourcefoundry.org/hack/
 
+"Euro Caps" font copyright Tom Oetken, used with permission
+https://www.dafont.com/euro-caps.font
+
+"Sintony" font copyright Eduardo Rodrigues Tunni, subject to Open Font License
+https://fonts.google.com/specimen/Sintony
+
 All other website contents by various Labs personnel, used with permission, compiled and edited to various degrees by Samuel Henthorne
 
 
-Unless otherwise noted above, all parts of this website are subject to the Creative Commons Attribution-ShareAlike 4.0 International license.
+All original parts of this website (i.e. those created by Samuel Henthorne or other Labs personnel) are subject to the Creative Commons Attribution-ShareAlike 4.0 International license.
 https://creativecommons.org/licenses/by-sa/4.0/

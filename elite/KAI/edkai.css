@@ -1,0 +1,27 @@
+@font-face{
+	font-family:"Euro Caps";
+	src:url("/fonts/EUROCAPS.TTF") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face{
+	font-family:"Sintony";
+	src:url("/fonts/Sintony-Regular.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face{
+	font-family:"Sintony";
+	src:url("/fonts/Sintony-Bold.ttf") format("truetype");
+	font-weight:bold;
+	font-style:regular;
+}
+body {
+	font-family: Sintony, Courier New, Courier, monospace;
+}
+#header {
+	font-family: Euro Caps, Courier New, Courier, monospace;
+}
+.question {
+	font-family: Euro Caps, Courier New, Courier, monospace;
+}
