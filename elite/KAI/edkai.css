@@ -18,6 +18,21 @@
 }
 body {
 	font-family: Sintony, Courier New, Courier, monospace;
+	position: relative;
+}
+#body {
+	text-align: center;
+	width: 750px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
 }
 #header {
 	font-family: Euro Caps, Courier New, Courier, monospace;
