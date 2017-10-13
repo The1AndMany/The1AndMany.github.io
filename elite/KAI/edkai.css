@@ -16,26 +16,39 @@
 	font-weight:bold;
 	font-style:regular;
 }
+* {
+	box-sizing: border-box;
+}
 body {
 	font-family: Sintony, Courier New, Courier, monospace;
-	position: relative;
 }
 #body {
+	width: 100%;
+	max-width: 775px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
-	width: 750px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin: auto;
 }
-.left {
-	float: left;
+#holobox {
+	padding: 0;
+	background-color: orange;
+	flex: auto;
+	overflow: auto;
 }
-.right {
-	float: right;
+div {
+	padding: 10px;
+}
+.download {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0px 20px;
 }
 #header {
 	font-family: Euro Caps, Courier New, Courier, monospace;
+	margin: 0;
 }
 .question {
 	font-family: Euro Caps, Courier New, Courier, monospace;
