@@ -24,7 +24,7 @@ body {
 }
 #body {
 	width: 100%;
-	max-width: 775px;
+	max-width: 800px;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -32,11 +32,23 @@ body {
 	text-align: center;
 	margin: auto;
 }
-#holobox {
+#boxbound {
 	padding: 0;
-	background-color: orange;
+	color: #ff7100;
 	flex: auto;
 	overflow: auto;
+	position: relative;
+}
+#holobox {
+	height: calc(100% - 26px);
+	width: calc(100% - 26px);
+	margin: 13px;
+	filter: blur(8px);
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("bg/Holobars.png");
+	z-index: -1;
 }
 div {
 	padding: 10px;
@@ -49,7 +61,20 @@ div {
 #header {
 	font-family: Euro Caps, Courier New, Courier, monospace;
 	margin: 0;
+	background-color: #ff7100;
+	color: black;
 }
 .question {
 	font-family: Euro Caps, Courier New, Courier, monospace;
+}
+a {
+	border: 1px solid #ff7100;
+	color: #ff7100;
+	background-color: transparent;
+	text-decoration: none;
+	transition: color 0.1s, background-color 0.1s;
+}
+a:hover {
+	color: black;
+	background-color: #ff7100;
 }

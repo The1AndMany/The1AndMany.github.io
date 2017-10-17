@@ -8,13 +8,15 @@
 <script src="/googleanalytics.js"></script>
 </head>
 <!--
-Progress notes: The page is in the proper font, the text is centered horizontally and vertically, the download links are divs set on the same line, and the text adapts to screen/window size, but if the window is made small enough to cause overflow you can't scroll up
-Ideas: I'm still getting to grips with the "flex" standard. I'll keep experimenting...
-After that: Backgrounds and intro animations (I may be able to look to Anubis again for the latter)
+Progress notes: The page is in the proper font, the text is centered horizontally and vertically, the download links are divs set on the same line, the text adapts to screen/window size, and some initial backgrounds are set, but if the window is made small enough to cause overflow you can't scroll up
+Ideas: I'm still getting to grips with the "flex" standard. First I'll check to see if that's an unreasonable edge case, and if it isn't I'll keep experimenting...
+After that: Changing backgrounds via JavaScript and intro animations (I may be able to look to Anubis again for how to code the latter, and I plan on making it look as much like the actual Holo-interfaces in Elite Dangerous)
 -->
-<body>
+<body background="bg/bg1.jpg">
 <div id="body">
-<div id="holobox">
+<div id="boxbound">
+<div id="holobox"></div>
+<div id="holoboxcontent">
 <h1 id="header">KAI for Elite: Dangerous</h1>
 <div>KAI is the artificial intelligence that runs most of the day-to-day operations at Low-Rez Labs. He is also available as a VoiceAttack profile to help you play Elite: Dangerous!</div>
 
@@ -29,6 +31,7 @@ After that: Backgrounds and intro animations (I may be able to look to Anubis ag
 <div>Have feedback? <a href="mailto:EDKAI@lowrezlabs.net">Send me an email!</a><br> Unfortunately I can't respond to any emails directly, but I do read them all!</div>
 
 <div><a href=".">Back to file browser</a></div>
+</div>
 </div>
 </div>
 </body>
