@@ -8,9 +8,23 @@
 <script src="/googleanalytics.js"></script>
 </head>
 <!--
-Progress notes: The page is in the proper font, the text is centered horizontally and vertically, the download links are divs set on the same line, the text adapts to screen/window size, some initial backgrounds are set, and the page adapts to small-screen edge cases, but it seems that the mobile page extends the height somewhat, which ruins the vertical centering.
-Ideas: I may have to test this on an actual mobile screen, rather than desktop Chrome's F12 interface. The problem is I'm still not sure how to access the localhost server on anything but the host computer. I'll work on figuring that out first, then once I can load it on my phone I'll check to see if my phone does the same.
-After that: Changing backgrounds via JavaScript and intro animations (I may be able to look to Anubis again for how to code the latter, and I plan on making it look as much like the actual Holo-interfaces in Elite Dangerous)
+Progress notes: Layout for both the Homepage and FAQ is more or less done.
+Next up: Changing backgrounds via JavaScript
+	Note: It might be cool to give users an option to send in screenshorts/art I could use as a background
+		I'd have to put in a place where you could view all available backgrounds
+			I think I'd put that there anyway...
+			How do I do that without server-side code?
+				I should look into code that adapts a webpage based on the contents of the folder it's in.
+				Worst-case scenario, I just have to hard-code the entire thing and add onto it manually every time I get more backgrounds
+		I'd probably need a disclaimer on the submission form saying that it'll need to be under a BY-SA license (or whatever the blanket license is for the site) or public domain, and pointing out that anyone with basic understanding of HTML will likely know how to download it direclty.
+	Note: Do I really need RNG for the background changer? I might be able to get away with just sequential changing and a "next background" button
+	Note: I should set it up so that the background is saved between the Homepage and FAQ
+		I may just copy what I had in line for the link color changer where, unless you're using the default, it changes the appropriate links to add a url argument which triggers a differend DOM
+			I'd have to adapt the trigger. I don't want to trigger the intro animation by refreshing every time you click the button.
+After that: Intro animations (I may be able to look to Anubis again for how to code the latter, and I plan on making it look as much like the actual Holo-interfaces in Elite Dangerous)
+	Note: Could I possibly have clicking on the specific link that leads to the FAQ trigger a transition animation?
+		Maybe by checking the browser history and having the animation be different for the FAQ page if the last page was the Homepage?
+		Not a high priority. I could probably get away with not having animations on the FAQ page
 -->
 <body background="bg/bg1.jpg">
 <div id="body">
@@ -29,10 +43,12 @@ After that: Changing backgrounds via JavaScript and intro animations (I may be a
 <div><a href="FAQ.html">Frequently Asked Questions</a></div>
 
 <div>Have feedback? <a href="mailto:EDKAI@lowrezlabs.net">Send me an email!</a><br> Unfortunately I can't respond to any emails directly, but I do read them all!</div>
-
-<div><a href=".">Back to file browser</a></div>
 </div>
 </div>
+</div>
+<div class="footer">
+<span class="floatl"><a href=".">Back to file browser</a></span>
+<span class="floatr">Background credit: CMDR Logan Rez</span>
 </div>
 </body>
 </html>

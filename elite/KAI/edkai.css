@@ -37,10 +37,25 @@ body {
 	text-align: center;
 	margin: auto;
 }
+#faqbody {
+	width: 100%;
+	padding: 50px;
+	min-width: 400px;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
 #boxbound {
 	padding: 0;
 	color: #ff7100;
 	flex: auto;
+	overflow: auto;
+	position: relative;
+}
+#faqboxbound {
+	padding: 0;
+	color: #ff7100;
 	overflow: auto;
 	position: relative;
 }
@@ -55,6 +70,9 @@ body {
 	background-image: url("bg/Holobars.png");
 	z-index: -1;
 }
+#holoboxcontent {
+	padding: 10px 20px;
+}
 div {
 	padding: 10px;
 }
@@ -62,6 +80,13 @@ div {
 	display: inline-block;
 	box-sizing: border-box;
 	padding: 0px 20px;
+}
+.inlineblock {
+	display: inline-block;
+	box-sizing: border-box;
+}
+.links {
+	text-align: center;
 }
 #header {
 	font-family: Euro Caps, Courier New, Courier, monospace;
@@ -71,6 +96,8 @@ div {
 }
 .question {
 	font-family: Euro Caps, Courier New, Courier, monospace;
+	background-color: #ff7100;
+	color: black;
 }
 a {
 	border: 1px solid #ff7100;
@@ -82,4 +109,22 @@ a {
 a:hover {
 	color: black;
 	background-color: #ff7100;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #ff7100;
+	background-color: black;
+	border-top: medium solid #ff7100;
+}
+.floatl {
+	float: left;
+}
+.floatr {
+	float: right;
+}
+#floatwithrightpad {
+	padding-right: 10px;
 }
