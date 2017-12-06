@@ -126,7 +126,7 @@ a:hover {
 .floatr {
 	float: right;
 }
-#floatwithrightpad {
+.floatwithrightpad {
 	padding-right: 10px;
 }
 .pics {

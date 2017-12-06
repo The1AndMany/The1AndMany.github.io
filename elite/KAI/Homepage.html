@@ -8,8 +8,11 @@
 <script src="/googleanalytics.js"></script>
 </head>
 <!--
-Progress notes: Layout for both the Homepage and FAQ is more or less done, and you can change the backgrounds with a button.
-Next up: Intro animations
+Progress notes: Layout for both the Homepage and FAQ is more or less done, and you can change the backgrounds with a button, but resize() seems to break the background on mobile.
+Next: Troubleshooting
+	Note: I might be able to fix this if I can set the background height to the client height while keeping the body height intact
+		I may also have to recenter, but let's start with that and see if that fixes the entire thing
+After that: Intro animations
 	Note: I may be able to look to Anubis again for how to code this
 	Note: I plan on making it look as much like the actual Holo-interfaces in Elite Dangerous as possible
 -->
@@ -35,11 +38,13 @@ Next up: Intro animations
 </div>
 <div class="footer">
 <span class="floatl"><a href=".">Back to file browser</a></span>
-<span class="floatr"><a href="bg/bglist.html">See All</a></span>
-<span class="floatr" id="floatwithrightpad"><a href="javascript:nextbg()">Next &gt;&gt;</a></span>
-<span class="floatr" id="floatwithrightpad">Background: CMDR Logan Rez</span>
+<span class="floatr">
+<span class="floatl floatwithrightpad">Background: CMDR Logan Rez</span>
+<span class="floatl floatwithrightpad"><a href="javascript:nextbg()">Next &gt;&gt;</a></span>
+<span class="floatl"><a href="bg/bglist.html">See All</a></span>
+</span>
 </div>
-<script src="footer.js"></script>
+<!--<script src="footer.js"></script>-->
 <script src="bgurlargs.js"></script>
 </body>
 </html>
